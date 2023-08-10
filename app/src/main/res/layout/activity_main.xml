@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical"
+    tools:context=".MainActivity">
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+
+
+<Button
+    android:id="@+id/btn_textview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAllCaps="false"
+    android:text="TextView">
+
+
+</Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_time"
+        android:text="time"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_checkbox"
+        android:text="checkbox"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_imageview"
+        android:text="ImageView"
+        ></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_myactivity"
+        android:text="myactivity"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="小作业"
+        android:id="@+id/btn_work"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大作业"
+        android:id="@+id/btn_test"></Button>>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fragment"
+            android:id="@+id/btn_fragment"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="example"
+        android:id="@+id/btn_example"></Button>
+    >
+
+<!--    <HorizontalScrollView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <Button-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="300dp"-->
+<!--                android:text="test"-->
+<!--                ></Button><![CDATA[>-->
+
+<!--            >-->
+<!--            ]]>-->
+
+<!--            <Button-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="300dp"-->
+<!--                android:text="test"></Button>-->
+
+<!--            <Button-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="300dp"-->
+<!--                android:text="test"-->
+<!--                ></Button>>-->
+<!--        </LinearLayout>-->
+<!--    </HorizontalScrollView>-->
+<!--    </LinearLayout>-->
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data1">
+        <item>省</item>
+        <item>湖北</item>
+        <item>湖南</item>
+        <item>广东</item>
+        <item>黑龙江</item>
+    </string-array>
+    <string-array name="data2">
+        <item>市</item>
+        <item>武汉</item>
+        <item>黄石</item>
+        <item>襄阳</item>
+        <item>仙桃</item>
+    </string-array>
+    <string-array name="data3">
+        <item>区</item>
+        <item>青山</item>
+        <item>洪山</item>
+        <item>汉口</item>
+        <item>江汉</item>
+    </string-array>
+</resources>
+

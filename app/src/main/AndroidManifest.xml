@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelloWorld"
+        tools:targetApi="31">
+        <activity
+            android:name=".InternetActivity"
+
+            android:exported="false" />
+        <activity
+            android:name=".Test_7_18Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MysqlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SharedPreferencesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aActivity"
+            android:exported="false" />
+        <activity
+            android:name="fragment.ContainerActivity"
+            android:exported="false" />
+        <activity
+            android:name="fragment.UserInterfaceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LinearRecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Test1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterSuccessActivity"
+            android:exported="false"
+            android:label="用户登录" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".MyActivity"
+            android:exported="false" />
+        <activity
+            android:name="test.ImageViewActivity"
+            android:exported="false" />
+        <activity
+            android:name="test.CheckBoxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimeActivity"
+            android:exported="false" />
+        <activity
+            android:name="test.RadioButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name="test.ListActivity"
+            android:exported="false" />
+        <activity
+            android:name="test.EditTextActivity"
+            android:exported="false" />
+        <activity
+            android:name="test.ButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name="test.TextViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

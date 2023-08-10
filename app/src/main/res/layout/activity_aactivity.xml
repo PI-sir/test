@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/shuimen">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/relative"
+        android:text="欢迎使用"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:typeface="serif"/>
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true">
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="账号:"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_marginStart="10dp"
+            android:text="密码:"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/tv1"
+            android:hint="用户名/手机号/邮箱账号" />
+
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ed1"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/tv2"
+            android:hint="请输入数字密码"
+            android:inputType="numberPassword" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv2"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:text="注册"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/tv2"
+            android:layout_marginEnd="10dp"
+            android:text="登录"
+            android:textColor="@color/black"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_2"
+        android:scaleType="fitXY"
+        ></ImageView>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:background="@drawable/bg_btn2"
+        android:id="@+id/iv_1"
+
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"></ImageView>
+
+
+    <EditText
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="用户名"
+        android:id="@+id/et_1"
+        android:paddingLeft="10dp"
+        android:maxLines="1"></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="手机号"
+            android:id="@+id/et_4"
+            android:layout_below="@+id/et_1"
+            android:paddingLeft="10dp"
+            android:maxLines="1"></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_1"
+        android:text="籍贯"
+        android:layout_below="@+id/et_4"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"></TextView>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_1"
+        android:entries="@array/data1"
+
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/et_4"
+        android:layout_marginLeft="70dp"></Spinner>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_2"
+        android:layout_toRightOf="@id/sp_1"
+        android:entries="@array/data2"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/et_4"
+        android:layout_marginLeft="20dp"></Spinner>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_3"
+        android:layout_toRightOf="@id/sp_2"
+        android:entries="@array/data3"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/et_4"
+        android:layout_marginLeft="20dp"></Spinner>
+
+
+
+
+    <EditText
+        android:id="@+id/et_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sp_1"
+        android:layout_marginTop="26dp"
+        android:hint="身份证号"
+        android:maxLines="1"
+        android:paddingLeft="10dp"></EditText>
+
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_3"
+        android:layout_marginTop="18dp"
+        android:hint="密码"
+        android:maxLines="1"
+        android:paddingLeft="10dp"></EditText>
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="57dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:text="注册"
+        android:textColor="@color/white"></Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+    <string name="password">666</string>
+    <string name="phone">18908643860</string>
+    <boolean name="rememberme" value="true" />
+</map>
